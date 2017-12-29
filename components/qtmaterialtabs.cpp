@@ -1,4 +1,4 @@
-#include "qtmaterialtabs.h"
+﻿#include "qtmaterialtabs.h"
 #include "qtmaterialtabs_p.h"
 #include <QtWidgets/QHBoxLayout>
 #include "qtmaterialtabs_internal.h"
@@ -18,7 +18,7 @@ QtMaterialTabsPrivate::~QtMaterialTabsPrivate()
 {
 }
 
-void QtMaterialTabsPrivate::QtMaterialTabsPrivate::init()
+void QtMaterialTabsPrivate::init()
 {
     Q_Q(QtMaterialTabs);
 

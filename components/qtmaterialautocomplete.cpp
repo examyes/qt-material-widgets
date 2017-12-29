@@ -1,4 +1,4 @@
-#include "qtmaterialautocomplete.h"
+﻿#include "qtmaterialautocomplete.h"
 #include "qtmaterialautocomplete_p.h"
 #include <QtWidgets/QGraphicsDropShadowEffect>
 #include <QtWidgets/QVBoxLayout>
@@ -156,7 +156,7 @@ void QtMaterialAutoComplete::updateResults(QString text)
     d->menu->update();
 }
 
-bool QtMaterialAutoComplete::QtMaterialAutoComplete::event(QEvent *event)
+bool QtMaterialAutoComplete::event(QEvent *event)
 {
     Q_D(QtMaterialAutoComplete);
 

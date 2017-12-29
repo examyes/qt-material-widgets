@@ -1,4 +1,4 @@
-#include "drawersettingseditor.h"
+﻿#include "drawersettingseditor.h"
 #include <QVBoxLayout>
 #include <QColorDialog>
 #include <qtmaterialdrawer.h>
@@ -34,7 +34,8 @@ DrawerSettingsEditor::DrawerSettingsEditor(QWidget *parent)
     QVBoxLayout *drawerLayout = new QVBoxLayout;
     m_drawer->setDrawerLayout(drawerLayout);
 
-    QVector<QString> labels = {"Motion", "Style", "Layout", "Components", "Patterns", "Growth & communications", "Usability", "Platforms", "Resources"};
+    QVector<QString> labels;
+    labels << "Motion" << "Style" << "Layout" << "Components" << "Patterns" << "Growth & communications" << "Usability" << "Platforms" << "Resources";
 
     QVector<QString>::iterator it;
     for (it = labels.begin(); it != labels.end(); ++it) {
